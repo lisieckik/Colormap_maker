@@ -8,8 +8,8 @@ from numpy import loadtxt
 
 """
 This code starts GUI which allows you to make your own colormap from scratch and test it!
-It is at least a bit faster than typing it by hands ...
-However, it is my first time with tkinter, so it is not perfect for sure :) 
+It is at least a bit faster than typing it by hands ... it helped me
+However, it is my first time with tkinter, so it is not perfect for sure :)
 """
 
 given_data = loadtxt('example.txt')
