@@ -256,14 +256,14 @@ frame1.pack(side=tk.LEFT, anchor=tk.NW)
 
 next_row_frame1 = 2
 
-# Middle frame (examplary plot and colorbar)
+# Middle frame (exemplary plot and colorbar)
 frame2 = tk.Frame(root)
 
 frame2.pack(side=tk.LEFT, anchor=tk.N, padx=20)
 
 fig = Figure(figsize=(3,3), dpi = 300)
 ax = fig.add_subplot(111)
-ax.set_title('Examplary data')
+ax.set_title('Exemplary data')
 ax.set_position(pos=[0., 0.01, 0.9, 0.9])
 ax.set_yticks([],[])
 ax.set_xticks([],[])
